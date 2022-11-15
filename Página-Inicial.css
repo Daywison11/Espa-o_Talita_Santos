@@ -109,20 +109,11 @@ footer{
 
 }
 @media (max-width: 425px) {
-  .u-section-1 {
-    height: 100vh;
+  section .u-section-1 {
+    height: 140vh;
   }
    .u-section-1 .u-text-2 {
-    margin-top: 120%;
-    margin-left: 30px;
-    
-  }
-  p .u-section-1 .u-text-2 {
-    color: black !important;
-  }
-}
-@media (max-width: 390px) {
-   .u-section-1 .u-text-2 {
+    display: block;
     margin-top: 30vh;
     margin-left: 30px;
     
@@ -131,8 +122,13 @@ footer{
     color: black !important;
   }
 }
-@media (min-height: 820px){
-  .u-section-1 .u-text-2 {
-      margin-top: 40vh;
+@media (max-height: 667px) {
+   .u-section-1 .u-text-2 {
+    margin-top: 15vh;
+    margin-left: 30px;
+    
+  }
+  p .u-section-1 .u-text-2 {
+    color: black !important;
   }
 }
